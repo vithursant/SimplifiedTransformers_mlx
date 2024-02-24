@@ -7,6 +7,8 @@ efficiencies and innovations of the Simplified Transformer model to the Apple
 ecosystem, leveraging the power of Apple's MLX framework for enhanced
 performance on MAC's GPUs.
 
+Original Code [here](https://github.com/kyegomez/SimplifiedTransformers/tree/main)
+
 ## overview
 Transformers have become a cornerstone in the field of deep learning, offering remarkable success across a variety of tasks. However, the complexity of standard Transformer blocks, with their intricate combination of attention mechanisms, MLP sub-blocks, skip connections, and normalization layers, makes them prone to fragility where minor alterations can drastically impact training efficiency and model trainability.
 
