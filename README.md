@@ -10,9 +10,10 @@ performance on MAC's GPUs.
 Original Code [here](https://github.com/kyegomez/SimplifiedTransformers/tree/main)
 
 ## overview
-Transformers have become a cornerstone in the field of deep learning, offering remarkable success across a variety of tasks. However, the complexity of standard Transformer blocks, with their intricate combination of attention mechanisms, MLP sub-blocks, skip connections, and normalization layers, makes them prone to fragility where minor alterations can drastically impact training efficiency and model trainability.
+Transformers have become a cornerstone in the field of deep learning, offering remarkable success across a variety of tasks. However, the authors of this work have observed that the complexity of standard Transformer blocks, with their intricate combination of attention mechanisms, MLP sub-blocks, skip connections, and normalization layers, makes them prone to fragility. Even minor alterations can drastically impact training efficiency and model trainability.
 
-Addressing this challenge, our work simplifies the Transformer architecture without sacrificing performance. By applying principles from signal propagation theory and empirical analysis, we've successfully removed several components traditionally deemed essential, such as skip connections, certain projection parameters, sequential sub-block ordering, and normalization layers. The result? A model that not only matches the standard Transformer's training speed and performance but does so with 15% faster training throughput and a 15% reduction in parameter count.
+In response to this challenge, the authors of this work have simplified the Transformer architecture without sacrificing performance. By applying principles from signal propagation theory and empirical analysis, they successfully removed several components traditionally deemed essential, such as skip connections, certain projection parameters, sequential sub-block ordering, and normalization layers. The result? A model that not only matches the standard Transformer's training speed and performance but does so with 15% faster training throughput and a 15% reduction in parameter count.
+
 
 ## install
 Create a conda environment using the provided environment configuration file.
