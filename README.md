@@ -15,14 +15,7 @@ Transformers have become a cornerstone in the field of deep learning, offering r
 Addressing this challenge, our work simplifies the Transformer architecture without sacrificing performance. By applying principles from signal propagation theory and empirical analysis, we've successfully removed several components traditionally deemed essential, such as skip connections, certain projection parameters, sequential sub-block ordering, and normalization layers. The result? A model that not only matches the standard Transformer's training speed and performance but does so with 15% faster training throughput and a 15% reduction in parameter count.
 
 ## install
-```bash
-git clone https://github.com/kyegomez/SimplifiedTransformers.git
-cd SimplifiedTransformers
-```
-
-Create a conda environment using the provided
-   environment configuration file.
-
+Create a conda environment using the provided environment configuration file.
 ```bash
 conda env create -f apple_mlx.yaml
 ```
