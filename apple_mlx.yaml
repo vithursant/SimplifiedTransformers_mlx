@@ -1,0 +1,9 @@
+name: apple_mlx
+channels:
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - mlx=0.2.0
+  - numpy
+  - einops
